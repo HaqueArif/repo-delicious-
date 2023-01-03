@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.menu{
+	background: #e3edf7;
+	 border-radius: 20px;
+    box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.15),               
+                -5px -5px 10px -1px rgba(225, 225, 225, 0.7);
+                margin: 0 auto;
+                width: 98vw;
+}
+.menu > ul{
+	display: flex;
+	justify-content: center;
+}
+.menu ul li{
+	list-style: none;
+	position: relative;
+}
+.menu ul li a{
+	display: block;
+	padding: 15px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #4e4e5d;
+	margin:10px 5px;
+	letter-spacing: 0.1em;
+	border: none;
+    border-radius: 20px;
+     box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),               
+    inset 4px 4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px 0.5px 0px rgba(255, 255, 255, 1),
+    -0.5px 0.5px 0px rgba(0, 0, 0, 0.1), 
+    0px 12px 10px -10px rgba(0, 0, 0, 0.07);
+    transition: 1s;
+}
+.menu ul li a:hover{
+	 box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.15),               
+                -5px -5px 10px -1px rgba(225, 225, 225, 0.7);
+	padding: 15px 35px;
+	transform: scale(110%);
+	
+}
+
+.menu ul ul{
+	
+	position: absolute;
+	top: 100%;
+	left: 0%;
+	display: none;
+	white-space: nowrap;
+}
+
+.menu ul li:hover ul{
+
+	display: block;
+}
+
+
+
+
+
+/* nav end */
+
+/* form start */
+
+.form-section{
+    background: #e3edf7;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+form{
+    width: 400px;
+    height: 500px;
+    margin: 100px auto;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.15),               
+                -5px -5px 10px -1px rgba(225, 225, 225, 0.7);
+               
+               
+    
+}
+
+form h2{
+    color: #7b7b86;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 30px 0px 80px 0px;
+    text-shadow: 1px 1px 2px  #00000026;
+    letter-spacing: 0.1em;
+    
+           
+}
+.name{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.name input{
+    letter-spacing: .2em;
+    text-align: center;
+    
+}
+form input[type="text"]{
+    width: 300px;
+    height: 50px;
+    border: none;
+    background: #e3edf7;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),               
+    inset 4px 4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px 0.5px 0px rgba(255, 255, 255, 1),
+    -0.5px 0.5px 0px rgba(0, 0, 0, 0.1), 
+    0px 12px 10px -10px rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+    position: relative;
+
+}
+form input[type="password"]{
+    width: 300px;
+    height: 50px;
+    border: none;
+    background: #e3edf7;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),               
+    inset 4px 4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px 0.5px 0px rgba(255, 255, 255, 1),
+    -0.5px 0.5px 0px rgba(0, 0, 0, 0.1), 
+    0px 12px 10px -10px rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+}
+.unm{
+    position: relative;
+    margin-bottom: 30px;
+    margin: 20px auto;
+}
+
+.un{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: #b2b2ca;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+
+}
+.pass{
+    display: flex;
+    justify-content: center;   
+}
+input[type="text"]::placeholder{
+    padding: 40px;
+    color: #7b7b86;
+    font-size: 15px;
+    letter-spacing: 0.3em;
+}
+
+input[type="password"]::placeholder{
+    padding-left: 40px;
+    color: #7b7b86;
+    font-size: 15px;
+    letter-spacing: 0.3em;
+}
+.Rm_me{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+   
+}
+.Rm_me label{
+
+    color:#4e4e5d;
+    font-size: 15px;
+}
+.Rm_me label:hover{
+    color: #6b6b7e;
+}
+form>a{
+    display: inline-block;
+    color:  #7b7b86;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    padding: 15px 25px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 20px;
+    box-shadow:  5px 5px 10px -1px rgba(0, 0, 0, 0.15),               
+                -5px -5px 10px -1px rgba(225, 225, 225, 0.7);
+    transition: 1s;
+    
+    
+}
+form>a:hover{
+    padding: 15px 45px;
+}
+
+.fp a{
+    display: inline-block;
+    /* margin:8px 0px 0px 50px; */
+    text-decoration: none;
+    font-size: 15px;
+    color:#4e4e5d;
+}
+.fp a:hover{
+    text-decoration: underline;
+}
+
+
+.create{
+    margin-top: 40px;
+text-align: center;
+}
+.create a{
+    text-decoration: none;
+    display: inline-block;
+    color: #4e4e5d;
+    padding: 15px 20px;
+    box-shadow:  5px 5px 10px -1px rgba(0, 0, 0, 0.15),               
+                -5px -5px 10px -1px rgba(225, 225, 225, 0.7);
+    border-radius: 25px;
+
+}
+
+
